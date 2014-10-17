@@ -26,12 +26,24 @@
 	display: inline-block;
 }
 
+.top_navigation .links li:hover {
+    color: #333333;
+	cursor: pointer;
+}
+
 .top_navigation .links .active {
     color: #4C5058;
     font-weight: 600;
 }
 
-.top_navigation .links li:hover {
-    color: #333333;
-	cursor: pointer;
+.top_navigation .links .active:hover {
+	color: #4C5058;
+}
+
+.introduction {
+	background: url("../img/background.jpg");
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 536px;
 }
