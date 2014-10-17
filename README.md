@@ -1,0 +1,1 @@
+This a clone of the webpage Karma as dictated within an assignment from Thinkful.com's Front End Web Development course.
