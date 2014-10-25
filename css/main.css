@@ -197,7 +197,7 @@ img {
 	padding-top: 0;
 	position: absolute;
 	width: 60px;
-	z-index: 1000;
+	z-index: 999;
 }
 
 .learn_more .arrow_down {
@@ -211,8 +211,20 @@ img {
 	-o-animation: exploreBounce 0.85s ease-in-out infinite alternate; 
 }
 
+@keyframes exploreBounce {
+	to { padding-top: 30px; }
+}
+
 @-webkit-keyframes exploreBounce {
-	to { padding-top:30px; }
+	to { padding-top: 30px; }
+}
+
+@-moz-keyframes exploreBounce {
+	to { padding-top: 30px; }
+}
+
+@-o-keyframes exploreBounce {
+	to { padding-top: 30px; }
 }
 
 .container {
@@ -234,6 +246,10 @@ img {
 	margin-right: -15px;
 }
 
+.cases {
+	height: 608px;
+}
+
 .devices {
 	width: 33.3333333%;
     display: inline-block;
@@ -252,4 +268,61 @@ img {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.538461538;
+}
+
+.social {
+	margin-bottom: 15px;
+	list-style: none;
+	position: relative;
+}
+
+.icons {
+	text-align: center;
+}
+
+.icons > li {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+footer .icons {
+	margin-bottom: 15px;
+}
+
+footer .icons li a {
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 21px;
+	border: 1px solid #eaebec;
+}
+
+.header {
+	display: block;
+	padding-bottom: 6px;
+}
+
+.inline {
+	display: inline-block;
+	width: 52px;
+	height: 44px;
+}
+
+.inline > a {
+	padding: 10px;
+	width: 42px;
+	height: 42px;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
 }
