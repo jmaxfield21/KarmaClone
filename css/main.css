@@ -271,12 +271,24 @@ img {
 }
 
 .social {
-	margin-bottom: 15px;
 	list-style: none;
 	position: relative;
 }
 
+.business {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+hr {
+	margin-top: 21px;
+	margin-bottom: 21px;
+	border: 0;
+	border-top: 1px solid #eaebec;
+}
+
 .icons {
+	margin-bottom: 15px;
 	text-align: center;
 }
 
@@ -289,18 +301,10 @@ footer .icons {
 	margin-bottom: 15px;
 }
 
-footer .icons li a {
-	width: 42px;
-	height: 42px;
-	line-height: 42px;
-	text-align: center;
-	border-radius: 21px;
-	border: 1px solid #eaebec;
-}
-
 .header {
 	display: block;
-	padding-bottom: 6px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .inline {
@@ -310,9 +314,18 @@ footer .icons li a {
 }
 
 .inline > a {
-	padding: 10px;
 	width: 42px;
 	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 21px;
+	border: 1px solid #eaebec;
+	padding: 10px;
+}
+
+.inline a i {
+	width: 22px;
+	height: 20px;
 }
 
 .twitter {
@@ -325,4 +338,8 @@ footer .icons li a {
 
 .instagram {
 	color: #3f729b;
+}
+
+footer p {
+	text-align: center;
 }
