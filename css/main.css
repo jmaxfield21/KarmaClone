@@ -456,7 +456,8 @@ img {
 }
 
 .form-btn:hover {
-	color: #838994;
+	color: #cf3d0e;
+	border-color: #838994;
 }
 
 hr {
