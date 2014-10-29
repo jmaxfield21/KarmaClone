@@ -40,21 +40,21 @@ section {
 
 .content {
 	padding: 0px 15px;
-	width: 970px;
+	width: 935px;
 	height: 70px;
 	margin: 0 auto;	
 	position: relative;
 	top: 50%;
 }
 
-.top_navigation > .content {
+.content {
 	margin: 0 auto;
 }
 
 .links {
-	float: right;
 	margin-top: 25px;
 	font-size: 16px;
+	float: right;
 }
 
 .links li {
@@ -228,7 +228,7 @@ img {
 }
 
 .container {
-	width: 970px;
+	width: 935px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -263,9 +263,32 @@ img {
 	max-width: 127px;
 }
 
+.go_karma {
+	background: url("../img/buy-now-bg.jpg") bottom  center no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	height: 730px;
+}
+
+.left_block {
+	width: 27%;
+	float: left;
+	text-align: left;
+}
+
+.left_block h3 {
+	color: #f15a29;
+}
+
+.left_block .lead {
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+
 .lead {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.538461538;
 }
 
@@ -439,10 +462,15 @@ hr {
 .icons > li {
 	padding-left: 5px;
 	padding-right: 5px;
+	font-size: 14px;
 }
 
 footer .icons {
 	margin-bottom: 15px;
+}
+
+footer li {
+	font-size: 14px;
 }
 
 .header {
@@ -468,6 +496,10 @@ footer .icons {
 	padding: 10px;
 }
 
+.inline > a:hover {
+	border: 1px solid #838994;
+}
+
 .inline a i {
 	width: 22px;
 	height: 20px;
@@ -487,4 +519,5 @@ footer .icons {
 
 footer p {
 	text-align: center;
+	font-size: 14px;
 }
