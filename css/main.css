@@ -370,7 +370,7 @@ img {
 	width: 100%;
 	height: auto;
 	position: relative;
-	display: table;
+	display: inline-flex;
 	z-index: 2;
 	float: left;
 	margin-bottom: 0;
