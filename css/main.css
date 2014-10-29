@@ -394,6 +394,11 @@ img {
     box-shadow: 0;
 }
 
+.form_input:focus {
+	outline: none;
+	border-color: #838994;
+}
+
 .in {
 	font-size: 12px;
 	font-weight: 500;
