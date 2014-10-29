@@ -389,6 +389,7 @@ img {
 	font-size: 18px;
 	letter-spacing: -0.02em;
 	display: inline;
+	border: 1px solid #CACCD1;
 }
 
 .in {
