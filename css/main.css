@@ -389,9 +389,8 @@ img {
 	font-size: 18px;
 	letter-spacing: -0.02em;
 	display: inline;
-	-webkit-box-shadow: 0;
-    -moz-box-shadow: 0;
-    box-shadow: 0;
+	border-style: solid;
+	border-width: thin;
 }
 
 .form_input:focus {
