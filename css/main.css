@@ -445,13 +445,18 @@ img {
 	font-size: 14px;
 	line-height: 1.5;
 	border-radius: 4px;
-	border-color: black;
+	border-color: #CACCD1;
+	border-width: thin;
 	background-color: transparent;
 	color: #f15a29;
 	font-weight: normal;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.form-btn:hover {
+	color: #838994;
 }
 
 hr {
