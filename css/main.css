@@ -389,7 +389,9 @@ img {
 	font-size: 18px;
 	letter-spacing: -0.02em;
 	display: inline;
-	border: 1px solid #CACCD1;
+	-webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
 }
 
 .in {
